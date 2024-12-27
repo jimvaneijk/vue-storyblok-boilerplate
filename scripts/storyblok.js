@@ -1,3 +1,12 @@
+/**
+ * This script fetches components from Storyblok and generates typescript type definitions for them.
+ * It requires the Storyblok CLI to be installed globally.
+ *
+ * @author Jim van Eijk
+ * @date 2024-12-27 15:00:00
+ * @see https://www.storyblok.com/docs/guide/cli
+ */
+
 import shell from 'shelljs';
 import dotenv from 'dotenv';
 dotenv.config();
@@ -20,7 +29,7 @@ if (!process.env.VITE_STORYBLOK_SPACE_ID) {
 
     shell.echo('Generating component type files...');
     shell.exec(
-        `storyblok generate-typescript-typedefs --sourceFilePaths ./src/storyblok/components.${process.env.VITE_STORYBLOK_SPACE_ID}.json --destinationFilePath ./src/storyblok/types/component-types-sb.d.ts`,
+        `storyblok generate-typescript-typedefs --sourceFilePaths ./src/storyblok/components.${process.env.VITE_STORYBLOK_SPACE_ID}.json --destinationFilePath ./src/storyblok/types/component-types-sb.ts`,
     );
 
     shell.echo('You are ready to go! 🚀');
