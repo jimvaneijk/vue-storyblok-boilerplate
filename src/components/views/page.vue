@@ -1,5 +1,9 @@
 <script lang="ts" setup>
-defineProps({ blok: Object });
+import { ViewsPageStoryblok } from '../../storyblok/types/component-types-sb';
+
+defineProps<{
+    blok: ViewsPageStoryblok;
+}>();
 </script>
 
 <template>

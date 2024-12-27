@@ -1,9 +1,15 @@
 <script lang="ts" setup>
-defineProps({ blok: Object });
+import { BlocksFeatureStoryblok } from '@/storyblok/types/component-types-sb';
+
+defineProps<{
+    blok: BlocksFeatureStoryblok;
+}>();
 </script>
 
 <template>
     <div v-editable="blok" class="p-4 shadow-lg rounded-lg">
-        <h1 class="text-lg font-bold text-gray-600">{{ blok.name }}</h1>
+        <h1 class="text-lg font-bold text-gray-600">
+            {{ blok.name }}
+        </h1>
     </div>
 </template>

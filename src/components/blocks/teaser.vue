@@ -1,9 +1,13 @@
 <script lang="ts" setup>
-defineProps({ blok: Object });
+import { BlocksTeaserStoryblok } from '@/storyblok/types/component-types-sb';
+
+defineProps<{
+    blok: BlocksTeaserStoryblok;
+}>();
 </script>
 
 <template>
-    <div v-editable="blok" class="py-8 mb-6 text-5xl font-bold text-center text-gray-600">
+    <h1 v-editable="blok" class="py-8 mb-6 text-5xl font-bold text-center text-gray-600">
         {{ blok.headline }}
-    </div>
+    </h1>
 </template>

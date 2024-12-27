@@ -1,5 +1,9 @@
 <script lang="ts" setup>
-defineProps({ blok: Object });
+import { BlocksGridStoryblok } from '@/storyblok/types/component-types-sb';
+
+defineProps<{
+    blok: BlocksGridStoryblok;
+}>();
 </script>
 
 <template>
