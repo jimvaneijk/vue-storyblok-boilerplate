@@ -1,15 +1,18 @@
-<script setup>
-import Home from './pages/Home.vue';
+<script lang="ts" setup>
+import { RouterLink, RouterView } from 'vue-router';
 </script>
 
 <template>
-    <Suspense>
-        <template #default>
-            <Home />
-        </template>
+    <header>
+        <div class="wrapper">
+            <nav>
+                <RouterLink to="/">Home</RouterLink>
+                <RouterLink to="/about">About</RouterLink>
+            </nav>
+        </div>
+    </header>
 
-        <template #fallback>
-            <div>Loading...</div>
-        </template>
+    <Suspense>
+        <RouterView />
     </Suspense>
 </template>

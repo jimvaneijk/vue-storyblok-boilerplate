@@ -4,6 +4,7 @@ import { createPinia } from 'pinia';
 import { StoryblokVue, apiPlugin } from '@storyblok/vue';
 import App from './App.vue';
 
+import router from '@/router';
 import StoryblokComponents from '@/storyblok/components';
 
 const app = createApp(App);
@@ -14,6 +15,7 @@ app.use(StoryblokVue, {
     cacheProvider: 'memory',
     use: [apiPlugin],
 });
+app.use(router);
 
 app.use(StoryblokComponents);
 app.use(createPinia());
