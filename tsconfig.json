@@ -1,0 +1,16 @@
+{
+    "include": ["./src"],
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "strict": true,
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./src",
+        "typeRoots": ["@types"],
+        "paths": {
+            "@/*": ["src/*"]
+        }
+    }
+}
