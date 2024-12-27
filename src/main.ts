@@ -1,7 +1,10 @@
+import './assets/app.css';
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
 import { StoryblokVue, apiPlugin } from '@storyblok/vue';
 import App from './App.vue';
+
+import StoryblokComponents from '@/storyblok/components';
 
 const app = createApp(App);
 
@@ -12,6 +15,7 @@ app.use(StoryblokVue, {
     use: [apiPlugin],
 });
 
+app.use(StoryblokComponents);
 app.use(createPinia());
 
 app.mount('#app');
