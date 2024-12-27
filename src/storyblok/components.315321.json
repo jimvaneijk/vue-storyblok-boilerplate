@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "name": "BlocksFeature",
+      "display_name": null,
+      "description": null,
+      "created_at": "2024-11-29T13:31:19.292Z",
+      "updated_at": "2024-12-27T10:24:14.191Z",
+      "id": 6627097,
+      "schema": {
+        "name": {
+          "type": "text"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "BlocksFeature",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null,
+      "internal_tags_list": [],
+      "internal_tag_ids": [],
+      "content_type_asset_preview": null
+    },
+    {
+      "name": "BlocksGrid",
+      "display_name": null,
+      "description": null,
+      "created_at": "2024-11-29T13:31:19.269Z",
+      "updated_at": "2024-12-27T10:23:33.303Z",
+      "id": 6627096,
+      "schema": {
+        "columns": {
+          "type": "bloks"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "BlocksGrid",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null,
+      "internal_tags_list": [],
+      "internal_tag_ids": [],
+      "content_type_asset_preview": null
+    },
+    {
+      "name": "BlocksTeaser",
+      "display_name": null,
+      "description": null,
+      "created_at": "2024-11-29T13:31:19.237Z",
+      "updated_at": "2024-12-27T10:22:47.338Z",
+      "id": 6627095,
+      "schema": {
+        "headline": {
+          "type": "text"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "BlocksTeaser",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null,
+      "internal_tags_list": [],
+      "internal_tag_ids": [],
+      "content_type_asset_preview": null
+    },
+    {
+      "name": "ViewsPage",
+      "display_name": null,
+      "description": null,
+      "created_at": "2024-11-29T13:31:19.202Z",
+      "updated_at": "2024-12-27T10:22:17.194Z",
+      "id": 6627094,
+      "schema": {
+        "body": {
+          "type": "bloks"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "ViewsPage",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null,
+      "internal_tags_list": [],
+      "internal_tag_ids": [],
+      "content_type_asset_preview": null
+    }
+  ],
+  "component_groups": []
+}
