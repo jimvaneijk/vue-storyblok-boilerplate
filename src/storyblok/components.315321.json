@@ -2,14 +2,30 @@
   "components": [
     {
       "name": "BlocksFeature",
-      "display_name": null,
+      "display_name": "Feature",
       "description": null,
       "created_at": "2024-11-29T13:31:19.292Z",
-      "updated_at": "2024-12-27T10:24:14.191Z",
+      "updated_at": "2024-12-27T14:49:16.247Z",
       "id": 6627097,
       "schema": {
-        "name": {
-          "type": "text"
+        "title": {
+          "type": "text",
+          "display_name": "Title",
+          "id": "cLR2fZe9RAaD_kaQOjUMYQ",
+          "pos": 0
+        },
+        "content": {
+          "type": "richtext",
+          "pos": 1,
+          "id": "Mbc-E_0jRMSAlLv-fKUh3g"
+        },
+        "image": {
+          "type": "asset",
+          "pos": 2,
+          "filetypes": [
+            "images"
+          ],
+          "id": "wJVF42o7QgawVPF1UJLe9Q"
         }
       },
       "image": null,
@@ -19,7 +35,7 @@
       "is_nestable": true,
       "all_presets": [],
       "preset_id": null,
-      "real_name": "BlocksFeature",
+      "real_name": "Feature",
       "component_group_uuid": null,
       "color": null,
       "icon": null,
@@ -29,10 +45,10 @@
     },
     {
       "name": "BlocksGrid",
-      "display_name": null,
+      "display_name": "Grid",
       "description": null,
       "created_at": "2024-11-29T13:31:19.269Z",
-      "updated_at": "2024-12-27T10:23:33.303Z",
+      "updated_at": "2024-12-27T14:46:35.779Z",
       "id": 6627096,
       "schema": {
         "columns": {
@@ -46,7 +62,7 @@
       "is_nestable": true,
       "all_presets": [],
       "preset_id": null,
-      "real_name": "BlocksGrid",
+      "real_name": "Grid",
       "component_group_uuid": null,
       "color": null,
       "icon": null,
@@ -56,10 +72,10 @@
     },
     {
       "name": "BlocksTeaser",
-      "display_name": null,
+      "display_name": "Teaser",
       "description": null,
       "created_at": "2024-11-29T13:31:19.237Z",
-      "updated_at": "2024-12-27T10:22:47.338Z",
+      "updated_at": "2024-12-27T14:46:24.441Z",
       "id": 6627095,
       "schema": {
         "headline": {
@@ -73,7 +89,7 @@
       "is_nestable": true,
       "all_presets": [],
       "preset_id": null,
-      "real_name": "BlocksTeaser",
+      "real_name": "Teaser",
       "component_group_uuid": null,
       "color": null,
       "icon": null,
@@ -83,10 +99,10 @@
     },
     {
       "name": "ViewsPage",
-      "display_name": null,
+      "display_name": "Page",
       "description": null,
       "created_at": "2024-11-29T13:31:19.202Z",
-      "updated_at": "2024-12-27T10:22:17.194Z",
+      "updated_at": "2024-12-27T14:46:15.059Z",
       "id": 6627094,
       "schema": {
         "body": {
@@ -100,7 +116,7 @@
       "is_nestable": false,
       "all_presets": [],
       "preset_id": null,
-      "real_name": "ViewsPage",
+      "real_name": "Page",
       "component_group_uuid": null,
       "color": null,
       "icon": null,
